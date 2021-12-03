@@ -11,3 +11,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     assertthat
+URL: https://github.com/mine-cetinkaya-rundel/animalsoundr
+BugReports: https://github.com/mine-cetinkaya-rundel/animalsoundr/issues
