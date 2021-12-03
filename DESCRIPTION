@@ -13,3 +13,7 @@ Imports:
     assertthat
 URL: https://github.com/mine-cetinkaya-rundel/animalsoundr
 BugReports: https://github.com/mine-cetinkaya-rundel/animalsoundr/issues
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr

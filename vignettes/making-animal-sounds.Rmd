@@ -1,0 +1,25 @@
+---
+title: "Making animal sounds"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Making animal sounds}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(animalsoundr)
+```
+
+This is an awesome package that makes animal sounds, it's one of a kind.
+
+```{r}
+animal_sounds(animal = "dog", sound = "woof")
+```
